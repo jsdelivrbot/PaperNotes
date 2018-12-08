@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 NOTESDIR="/home/maha/work/Bibliography/PapisDir/pdfs"
-RAWGITPATH="https://rawgit.com/elbayadm/PaperNotes/master/notes"
+RAWGITPATH="https://cdn.jsdelivr.net/gh/elbayadm/PaperNotes/notes"
 
 md2html () {
 pandoc $1 -t html -F pandoc-mermaid -s -o $2 --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML --css pandoc.css
